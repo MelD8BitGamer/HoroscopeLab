@@ -21,7 +21,7 @@ class FirstViewController: UIViewController {
     var leo = "leo"
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        navigationItem.title = "Daily Horoscope"
     }
     
     override func viewWillAppear(_ animated: Bool) {

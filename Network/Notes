@@ -1,0 +1,18 @@
+standard is a singleton it stores it as a dictionary so you need a key and a value.
+object(which is generic and is of type ANY)
+object(forKey:)is asking for the key part of the dictionary and once you access the key the value comes with it
+
+the part that saves is UserDefaults.standard.set( forKey: "NameKey") it saves it as a dictionary
+
+to get the SAVED information we use UserDefaults.standard.object("yulia", forKey: "NameKey") it tries to find the value and it is optional(may or may not have it) you can use nil coalescence
+
+Another way is
+if let someName = UserDefaults.standard.object(forKey: "NameKey")
+
+it is the same syntax as below because it is a dictionary
+let dict = ["Country":"Sweden"]
+if let country = dict["Sweden"] {
+
+}
+
+Do not use value at all unless you have a clear understanding of dictionary Key and value

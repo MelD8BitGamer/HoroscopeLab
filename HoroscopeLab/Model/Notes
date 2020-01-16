@@ -1,3 +1,0 @@
-standard is a singleton it stores it as a dictionary so you need a key and a value.
-object(which is generic and is of type ANY)
-object(forKey:)is asking for the key part of the dictionary and once you access the key the value comes with it

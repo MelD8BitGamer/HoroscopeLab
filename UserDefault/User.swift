@@ -24,8 +24,8 @@ enum SunSign: String {
 }
 
 struct UserKey { //use this to prevent any minor mistakes caused by you
-   static let userName = "Username"
-   static let sunSign = "sunSign"
+    static let userName = "Username"
+    static let sunSign = "sunSign"
 }
 
 class Wrapper {
@@ -39,7 +39,7 @@ class Wrapper {
     
     func getData() -> UserInfo? {
         
-    //this is to get the information
+        //this is to get the SAVED information for the user
         guard let userName = UserDefaults.standard.object(forKey: UserKey.userName ) as? String,
             let sunSign = UserDefaults.standard.object(forKey: UserKey.sunSign) as? String else {
                 return nil

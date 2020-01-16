@@ -91,6 +91,7 @@
 		4DC31A2223CD1A6D0059EB0B /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				4DC31A9923CF58FE0059EB0B /* Notes */,
 				4DC31A2723CD1BB00059EB0B /* NetworkHelper.swift */,
 				4DC31A2923CD1BC20059EB0B /* APIClient.swift */,
 				4DC31A2B23CD1C010059EB0B /* AppError.swift */,
@@ -103,7 +104,6 @@
 			children = (
 				4DC31A2523CD1B900059EB0B /* horoscope.swift */,
 				4DC31A3323CD2AEB0059EB0B /* UserInfo.swift */,
-				4DC31A9923CF58FE0059EB0B /* Notes */,
 			);
 			path = Model;
 			sourceTree = "<group>";
