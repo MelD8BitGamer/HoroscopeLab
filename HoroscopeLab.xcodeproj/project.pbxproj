@@ -19,6 +19,9 @@
 		4DC31A2C23CD1C010059EB0B /* AppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC31A2B23CD1C010059EB0B /* AppError.swift */; };
 		4DC31A3223CD28E00059EB0B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC31A3123CD28E00059EB0B /* User.swift */; };
 		4DC31A3423CD2AEB0059EB0B /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC31A3323CD2AEB0059EB0B /* UserInfo.swift */; };
+		4DC31A9A23CF58FE0059EB0B /* Notes in Resources */ = {isa = PBXBuildFile; fileRef = 4DC31A9923CF58FE0059EB0B /* Notes */; };
+		4DC31ABF23CFBE490059EB0B /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC31ABE23CFBE490059EB0B /* Alert.swift */; };
+		4DC31AC123CFCEFC0059EB0B /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC31AC023CFCEFC0059EB0B /* FirstViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +39,9 @@
 		4DC31A2B23CD1C010059EB0B /* AppError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppError.swift; sourceTree = "<group>"; };
 		4DC31A3123CD28E00059EB0B /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		4DC31A3323CD2AEB0059EB0B /* UserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
+		4DC31A9923CF58FE0059EB0B /* Notes */ = {isa = PBXFileReference; lastKnownFileType = text; path = Notes; sourceTree = "<group>"; };
+		4DC31ABE23CFBE490059EB0B /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		4DC31AC023CFCEFC0059EB0B /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,8 +79,8 @@
 				4DC31A0E23CD1A580059EB0B /* AppDelegate.swift */,
 				4DC31A1023CD1A580059EB0B /* SceneDelegate.swift */,
 				4DC31A2323CD1A760059EB0B /* Model */,
+				4DC31ABD23CFBE260059EB0B /* Extensions */,
 				4DC31A2423CD1B350059EB0B /* Controllers */,
-				4DC31A1423CD1A580059EB0B /* Main.storyboard */,
 				4DC31A1723CD1A5A0059EB0B /* Assets.xcassets */,
 				4DC31A1923CD1A5A0059EB0B /* LaunchScreen.storyboard */,
 				4DC31A1C23CD1A5A0059EB0B /* Info.plist */,
@@ -97,6 +103,7 @@
 			children = (
 				4DC31A2523CD1B900059EB0B /* horoscope.swift */,
 				4DC31A3323CD2AEB0059EB0B /* UserInfo.swift */,
+				4DC31A9923CF58FE0059EB0B /* Notes */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -104,6 +111,8 @@
 		4DC31A2423CD1B350059EB0B /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				4DC31A1423CD1A580059EB0B /* Main.storyboard */,
+				4DC31AC023CFCEFC0059EB0B /* FirstViewController.swift */,
 				4DC31A1223CD1A580059EB0B /* ViewController.swift */,
 			);
 			path = Controllers;
@@ -115,6 +124,14 @@
 				4DC31A3123CD28E00059EB0B /* User.swift */,
 			);
 			path = UserDefault;
+			sourceTree = "<group>";
+		};
+		4DC31ABD23CFBE260059EB0B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4DC31ABE23CFBE490059EB0B /* Alert.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,6 +194,7 @@
 			files = (
 				4DC31A1B23CD1A5A0059EB0B /* LaunchScreen.storyboard in Resources */,
 				4DC31A1823CD1A5A0059EB0B /* Assets.xcassets in Resources */,
+				4DC31A9A23CF58FE0059EB0B /* Notes in Resources */,
 				4DC31A1623CD1A580059EB0B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -196,7 +214,9 @@
 				4DC31A3223CD28E00059EB0B /* User.swift in Sources */,
 				4DC31A2A23CD1BC20059EB0B /* APIClient.swift in Sources */,
 				4DC31A3423CD2AEB0059EB0B /* UserInfo.swift in Sources */,
+				4DC31ABF23CFBE490059EB0B /* Alert.swift in Sources */,
 				4DC31A2C23CD1C010059EB0B /* AppError.swift in Sources */,
+				4DC31AC123CFCEFC0059EB0B /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

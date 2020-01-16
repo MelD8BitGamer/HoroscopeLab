@@ -10,8 +10,8 @@ import Foundation
 
 struct UserInfo {
     
-    let name: String
-    let sunSign: SunSign
+    var name: String
+    var sunSign: SunSign
     
     
 }
